@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "2.0.1",
+  "description": "Backend of GLP Cards",
+  "main": "Api.js",
+  "scripts": {
+    "start": "node Api.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uttamakwana/glp-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uttamakwana/glp-backend/issues"
+  },
+  "homepage": "https://github.com/uttamakwana/glp-backend#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.1.0",
+    "nodemon": "^2.0.22"
+  }
+}

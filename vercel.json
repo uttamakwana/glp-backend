@@ -1,0 +1,10 @@
+{
+    "version":2,
+    "name": "glp-backend",
+    "builds": [
+       { "src": "Api.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+       { "src": "/(.*)", "dest": "/Api.js" }
+    ]
+ }
